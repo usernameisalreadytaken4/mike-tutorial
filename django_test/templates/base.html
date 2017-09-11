@@ -1,0 +1,43 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>{% block title %}My Base Template{% endblock %}</title>
+	
+		<link rel='stylesheet' type='text/css' href="{% static 'css/default.css' %}"/>
+		<script type='text/javascript' src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+		<script type='text/javascript' src="{% static 'js/ajax.js' %}"></script>
+
+</head>
+
+<body>
+	
+	<div id='page'>
+
+	<div id='sidebar'>
+		{% block sidebar %}
+		<ul>
+			<li><a href='/articles/all'>Articles</a></li>
+			<li><a href='/admin/'>Admin</a></li>
+			<li><a href="/accounts/register/">Register</a></li>
+		</ul>
+		{% endblock %}
+	</div>
+	
+	<div id='content'>
+		{% if messages %}
+		<ul class="messages">
+			{% for message in messages %}
+			<li {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
+			{% endfor %}
+		{% endif %}
+		</ul>
+		{% block content %}This is content block{% endblock %}
+	
+		<img src="{% static 'images/python-logo.png' %}"/>
+	</div>
+
+	</div>
+	
+</body>
+</html>

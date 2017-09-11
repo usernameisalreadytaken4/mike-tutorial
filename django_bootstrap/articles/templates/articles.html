@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Articles for you!</h1>
+    <p>This is where your can put description</p>
+</div>
+
+<div class="row">
+    {% if articles.count > 0 %}
+
+        {% for article in articles %}
+            <div class="col-6 col-sm-6 col-lg-4">
+                <h2>{{ article.title }}</h2>
+                <p>{{ article.body|lower }}</p>
+                <p><small>{{article.likes}} people liked this article</small></p>
+                <p><a class="btn btn-default" href="{% url 'articles:article' article.id %}">View details &raquo;</a></p>
+            </div><!--/span-->
+        {% endfor %}
+    {% else %}
+    <div class="col-6 col-sm-6 col-lg-4">
+        <p>None to show!</p>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

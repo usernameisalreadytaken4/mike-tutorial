@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load bootstrap_toolkit %}
+{% block sidebar %}
+<ul>
+    <li><a href="/articles/all">Cancel</a></li>
+</ul>
+{% endblock %}
+
+{% block content %}
+
+<form action="/articles/create/" method="post" enctype="multipart/form-data">{% csrf_token %}
+    {{form|as_bootstrap}}
+    <div class="form-actions">
+        <button type="submit" class="btn btn-primary">Create article</button>
+    </div>
+</form>
+
+{% endblock %}

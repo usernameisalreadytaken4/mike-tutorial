@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h2>Hi {{full_name}} you are now logged in!</h2>
+
+    {% if notification.count > 0 %}
+
+        <h3>Notifications</h3>
+        {% for n in notification %}
+            <p><a href="/notification/show/{{n.id}}">{{n.title}}</a></p>
+        {% endfor %}
+
+    {% endif %}
+
+    <p>Click <a href="/accounts/logout/">here</a> to logout.</p>
+
+    <p>Click <a href="/accounts/profile/">here</a> to edit you profile informations</p>
+
+{% endblock %}

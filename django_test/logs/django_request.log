@@ -1,0 +1,2134 @@
+2017-09-05 21:14:55,886 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:14:56,295 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:14:57,265 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:14:57,425 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:14:57,604 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:14:57,754 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:14:57,885 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:14:58,028 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:14:58,191 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:14:58,275 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:14:58,766 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:14:58,958 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:14:59,230 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:14:59,462 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:14:59,758 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:16:56,726 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:16:56,929 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:16:57,065 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:16:57,384 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:16:57,654 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:16:57,794 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:16:58,010 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:16:59,908 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:17:02,156 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:17:40,011 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:17:40,089 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:17:40,593 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:17:40,756 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:17:40,984 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:17:41,126 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:17:41,269 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:17:41,408 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:17:41,550 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:17:41,746 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:34,567 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:34,950 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:35,136 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:35,620 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:35,740 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:36,119 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:36,269 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:36,398 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:36,535 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:36,727 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:36,810 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:37,058 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:37,212 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:37,382 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:37,749 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:37,923 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:38,265 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:38,407 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:38,701 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:38,852 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:39,158 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:39,466 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:39,960 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:40,099 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:40,257 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:40,408 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-05 21:29:40,580 [ERROR] django.request: Internal Server Error: /articles/search/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in search_titles
+    ix = open_dir(settings.WHOOSH_INDEX)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 123, in open_dir
+    return FileIndex(storage, schema=schema, indexname=indexname)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/whoosh/index.py", line 619, in read
+    % (indexname, storage))
+whoosh.index.EmptyIndexError: Index 'MAIN' does not exist in FileStorage('/home/bobrovskiy/pprojects/django-mike/django_test')
+2017-09-06 15:53:00,151 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/response.py", line 82, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/response.py", line 64, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/loader.py", line 48, in select_template
+    return engine.get_template(template_name)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/loaders/base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/base.py", line 515, in parse
+    raise self.error(token, e)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/base.py", line 513, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/loader_tags.py", line 312, in do_extends
+    nodelist = parser.parse()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/base.py", line 515, in parse
+    raise self.error(token, e)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/base.py", line 513, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/loader_tags.py", line 255, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/base.py", line 515, in parse
+    raise self.error(token, e)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/base.py", line 513, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/defaulttags.py", line 968, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/smartif.py", line 194, in parse
+    self.current_token.display())
+django.template.exceptions.TemplateSyntaxError: Unused 'form.forms' at end of if expression.
+2017-09-06 15:54:51,435 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@gmail.com'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 64, in open
+    self.connection = self.connection_class(self.host, self.port, **connection_params)
+  File "/usr/lib64/python3.6/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/lib64/python3.6/socket.py", line 722, in create_connection
+    raise err
+  File "/usr/lib64/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+2017-09-06 15:56:51,539 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@gmail.com'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 64, in open
+    self.connection = self.connection_class(self.host, self.port, **connection_params)
+  File "/usr/lib64/python3.6/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/lib64/python3.6/socket.py", line 722, in create_connection
+    raise err
+  File "/usr/lib64/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+2017-09-06 15:57:07,586 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@gmail.com'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 64, in open
+    self.connection = self.connection_class(self.host, self.port, **connection_params)
+  File "/usr/lib64/python3.6/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/lib64/python3.6/socket.py", line 722, in create_connection
+    raise err
+  File "/usr/lib64/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+2017-09-06 15:59:46,837 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@gmail.com'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 64, in open
+    self.connection = self.connection_class(self.host, self.port, **connection_params)
+  File "/usr/lib64/python3.6/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/lib64/python3.6/socket.py", line 722, in create_connection
+    raise err
+  File "/usr/lib64/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+2017-09-06 16:00:34,601 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@gmail.com'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 64, in open
+    self.connection = self.connection_class(self.host, self.port, **connection_params)
+  File "/usr/lib64/python3.6/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/lib64/python3.6/socket.py", line 722, in create_connection
+    raise err
+  File "/usr/lib64/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+2017-09-06 16:01:49,747 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@gmail.com'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 64, in open
+    self.connection = self.connection_class(self.host, self.port, **connection_params)
+  File "/usr/lib64/python3.6/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/lib64/python3.6/socket.py", line 722, in create_connection
+    raise err
+  File "/usr/lib64/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+2017-09-06 16:06:34,214 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@mail.ru'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 64, in open
+    self.connection = self.connection_class(self.host, self.port, **connection_params)
+  File "/usr/lib64/python3.6/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/lib64/python3.6/socket.py", line 722, in create_connection
+    raise err
+  File "/usr/lib64/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+2017-09-06 16:39:34,408 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@gmail.com'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 64, in open
+    self.connection = self.connection_class(self.host, self.port, **connection_params)
+  File "/usr/lib64/python3.6/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/lib64/python3.6/socket.py", line 722, in create_connection
+    raise err
+  File "/usr/lib64/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+2017-09-06 16:41:28,007 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@gmail.com'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 71, in open
+    self.connection.login(force_str(self.username), force_str(self.password))
+  File "/usr/lib64/python3.6/smtplib.py", line 730, in login
+    raise last_exception
+  File "/usr/lib64/python3.6/smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "/usr/lib64/python3.6/smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbsK\n5.7.14 UJ9j-41NmLhiIghTZkmc44PXmqz6MyCOGD8qWa87Hb33fuUO_rypMNbILEwFScpQQsg368\n5.7.14 10pzoqU6kw2rWexKvzisAc0fSgtvFzCoo78310VUbt2GMqxij059-jwRdJtKTEpdaLXz_A\n5.7.14 hgztjpTGoB1PUuHGHYK_5ahIgv2nX-zJ9_CXFH11VLuuCpTCkh0Qu5762UHKZkrik4BhqK\n5.7.14 f1OE1f8xXeR28NZR_VqlhCwCv6Vik> Please log in via your web browser and\n5.7.14 then try again.\n5.7.14  Learn more at\n5.7.14  https://support.google.com/mail/answer/78754 g84sm612550lfl.74 - gsmtp')
+2017-09-06 16:42:54,495 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@gmail.com'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 71, in open
+    self.connection.login(force_str(self.username), force_str(self.password))
+  File "/usr/lib64/python3.6/smtplib.py", line 730, in login
+    raise last_exception
+  File "/usr/lib64/python3.6/smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "/usr/lib64/python3.6/smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbt1\n5.7.14 J5-2_6zu1OzRu3fjeaBeEFhbevBZDEFMwnE03I3w2LZf-OilLM-AlKPwH6Tzy0VSZ5j048\n5.7.14 ZFZ3VgyF1uhF3yiI7Z0ynjvQUDHjSkbrCH-O4WWFjMMrTp8JURdCu4GQOrtr8BQvw6KJds\n5.7.14 aRYqM2X7kTpNAX-Oq1-Pk3RL4BPbpLKdp2Vvd7xxhy-PEsmh3Cb1tt89rBAVS0esFNIIKQ\n5.7.14 k62Z5fRJN2fe8WRooCdZ5QKZadHuU> Please log in via your web browser and\n5.7.14 then try again.\n5.7.14  Learn more at\n5.7.14  https://support.google.com/mail/answer/78754 b186sm633301lfb.5 - gsmtp')
+2017-09-06 16:43:24,858 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@gmail.com'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 71, in open
+    self.connection.login(force_str(self.username), force_str(self.password))
+  File "/usr/lib64/python3.6/smtplib.py", line 730, in login
+    raise last_exception
+  File "/usr/lib64/python3.6/smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "/usr/lib64/python3.6/smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbta\n5.7.14 wBUEIe-S2uQfNv1lJ-R5Px9BqK4oAHtI1D36RUIU9Vod_pwqxGcwuKc9Kqnw7m72Nw45al\n5.7.14 pQgZTfQzDNdgDWR6ZRPMBdfiCNO9opwvfnP1FFXpmX7tPGgwaDKCZDyxRe8jZ4kiJxaXNP\n5.7.14 FxlIzuUKWf8lzBehL03NvNHyz5bbWgpcrixtY4_iLJBntxtaVMzdCk5K83171FOqxG74i2\n5.7.14 L_KX6exQt8CUw-7XkvOKv3JBDt8fQ> Please log in via your web browser and\n5.7.14 then try again.\n5.7.14  Learn more at\n5.7.14  https://support.google.com/mail/answer/78754 w203sm399102lff.10 - gsmtp')
+2017-09-06 16:43:28,208 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@gmail.com'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 71, in open
+    self.connection.login(force_str(self.username), force_str(self.password))
+  File "/usr/lib64/python3.6/smtplib.py", line 730, in login
+    raise last_exception
+  File "/usr/lib64/python3.6/smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "/usr/lib64/python3.6/smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbtu\n5.7.14 W-Bc74odKH85YBtaQ-gLyn4CbD3R9bNkYjYGetH-WOLtin7AoDyzCPcbhYef4WnVPkJFEw\n5.7.14 bSTMiww_Wb2g5M5gJYM7wNw7cGwrh1wvvaBjEUOEHc2JIjAzET-cEVznC8HR97X9yr4TK6\n5.7.14 8Ag8HjsWwhB-E_68jxeRYGBpQBxx_dcSK5Qz9iR0D142317yhm_buhifo1_i12JbKIfEJm\n5.7.14 H4zb_cbgbb4XrZNeL6XVQ24L2CqmE> Please log in via your web browser and\n5.7.14 then try again.\n5.7.14  Learn more at\n5.7.14  https://support.google.com/mail/answer/78754 x26sm706430ljd.88 - gsmtp')
+2017-09-06 16:44:59,033 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@gmail.com'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 71, in open
+    self.connection.login(force_str(self.username), force_str(self.password))
+  File "/usr/lib64/python3.6/smtplib.py", line 730, in login
+    raise last_exception
+  File "/usr/lib64/python3.6/smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "/usr/lib64/python3.6/smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbsg\n5.7.14 4QpoFMYflomjGRPmmhNAPSzZhZXu2DSl-Ijvz-_Gbdv6_fFr5LzayQcT9wRqnKytdmzU6t\n5.7.14 TcdxLVKztUVHVJvk58xC7DvRMFGpFYfNmayiucyR5MZnpO6XzC1Z6n4I2gK9Xvm8z_DhKJ\n5.7.14 -RetXeki0nWv-u_3OxZ2efSgZWyxaC0bTP8pFZlnh-huPT00PDthrzUGQX4hTqLDT6fh8P\n5.7.14 R-dXJo2XkXeg6fzcjuoYISxTgDgMI> Please log in via your web browser and\n5.7.14 then try again.\n5.7.14  Learn more at\n5.7.14  https://support.google.com/mail/answer/78754 r78sm713662lje.14 - gsmtp')
+2017-09-06 17:11:56,376 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@mail.ru'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 64, in open
+    self.connection = self.connection_class(self.host, self.port, **connection_params)
+  File "/usr/lib64/python3.6/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/lib64/python3.6/socket.py", line 722, in create_connection
+    raise err
+  File "/usr/lib64/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+2017-09-06 17:15:59,847 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@mail.ru'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 111, in send_messages
+    sent = self._send(message)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 127, in _send
+    self.connection.sendmail(from_email, recipients, message.as_bytes(linesep='\r\n'))
+  File "/usr/lib64/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (553, b'5.7.1 Sender address rejected: not owned by auth user.', 'pidor@mail.ru')
+2017-09-06 17:16:26,390 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['romul1988@mail.ru'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 111, in send_messages
+    sent = self._send(message)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 127, in _send
+    self.connection.sendmail(from_email, recipients, message.as_bytes(linesep='\r\n'))
+  File "/usr/lib64/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (553, b'5.7.1 Sender address rejected: not owned by auth user.', 'romul1988@mail.ru')
+2017-09-06 17:17:08,027 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['python.bobr@yandex.ru'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 111, in send_messages
+    sent = self._send(message)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 127, in _send
+    self.connection.sendmail(from_email, recipients, message.as_bytes(linesep='\r\n'))
+  File "/usr/lib64/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (553, b'5.7.1 Sender address rejected: not owned by auth user.', 'romul1988@mail.ru')
+2017-09-06 17:17:40,748 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 67, in done
+    return render('done.html', {'form_data': form_data})
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: {'form_data': [{'subject': 'fds'}, {'sender': 'python.bobr@yandex.ru'}, {'message': 'fdsf'}]}
+2017-09-06 17:19:04,316 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 67, in done
+    return render(self, 'done.html', {'form_data': form_data})
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/base.py", line 205, in render
+    with context.bind_template(self):
+  File "/usr/lib64/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/context.py", line 263, in bind_template
+    updates.update(processor(self.request))
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/template/context_processors.py", line 43, in debug
+    if settings.DEBUG and request.META.get('REMOTE_ADDR') in settings.INTERNAL_IPS:
+AttributeError: 'ContactWizard' object has no attribute 'META'
+2017-09-06 17:20:37,448 [ERROR] django.request: Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 244, in dispatch
+    response = super(WizardView, self).dispatch(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 305, in post
+    return self.render_done(form, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/formtools/wizard/views.py", line 361, in render_done
+    done_response = self.done(final_forms.values(), form_dict=final_forms, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 65, in done
+    form_data = process_form_data(form_list)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/django_test/views.py", line 80, in process_form_data
+    ['python.bobr@yandex.ru'], fail_silently=False)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 111, in send_messages
+    sent = self._send(message)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/mail/backends/smtp.py", line 127, in _send
+    self.connection.sendmail(from_email, recipients, message.as_bytes(linesep='\r\n'))
+  File "/usr/lib64/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (553, b'5.7.1 Sender address rejected: not owned by auth user.', 'romul1988@mail.ru')
+2017-09-06 18:39:28,330 [ERROR] django.request: Internal Server Error: /accounts/profile/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/models/query.py", line 464, in get_or_create
+    return self.get(**lookup), False
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+userprofile.models.DoesNotExist: UserProfile matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: userprofile_userprofile.likes_cheese
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/userprofile/views.py", line 18, in user_profile
+    profile = user.profile
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/utils/functional.py", line 239, in inner
+    return func(self._wrapped, *args)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/userprofile/models.py", line 13, in <lambda>
+    User.profile = property(lambda u: UserProfile.objects.get_or_create(user=u)[0])
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/models/query.py", line 466, in get_or_create
+    return self._create_object_from_params(lookup, params)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/models/query.py", line 506, in _create_object_from_params
+    six.reraise(*exc_info)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/models/query.py", line 498, in _create_object_from_params
+    obj = self.create(**params)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/Django-1.11.4-py3.6.egg/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: userprofile_userprofile.likes_cheese
+2017-09-06 22:56:38,040 [ERROR] django.request: Internal Server Error: /articles/add_comment/1/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 22:57:20,980 [ERROR] django.request: Internal Server Error: /articles/add_comment/1/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 22:58:00,802 [ERROR] django.request: Internal Server Error: /articles/add_comment/1/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 22:58:19,305 [ERROR] django.request: Internal Server Error: /articles/add_comment/1/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:00:28,782 [ERROR] django.request: Internal Server Error: /articles/add_comment/1/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:02:04,181 [ERROR] django.request: Internal Server Error: /articles/add_comment/1/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:02:17,889 [ERROR] django.request: Internal Server Error: /articles/add_comment/3/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:05:59,552 [ERROR] django.request: Internal Server Error: /articles/add_comment/1/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:09:31,834 [ERROR] django.request: Internal Server Error: /articles/add_comment/1/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:10:52,046 [ERROR] django.request: Internal Server Error: /articles/add_comment/1/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:11:59,065 [ERROR] django.request: Internal Server Error: /articles/add_comment/1/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:18:48,255 [ERROR] django.request: Internal Server Error: /articles/add_comment/1/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:24:39,811 [ERROR] django.request: Internal Server Error: /articles/add_comment/1/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:27:47,213 [ERROR] django.request: Internal Server Error: /articles/add_comment/1/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:27:50,179 [ERROR] django.request: Internal Server Error: /articles/add_comment/1/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:27:56,065 [ERROR] django.request: Internal Server Error: /articles/add_comment/4/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:31:37,168 [ERROR] django.request: Internal Server Error: /articles/add_comment/4/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:36:31,567 [ERROR] django.request: Internal Server Error: /articles/add_comment/4/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:38:12,436 [ERROR] django.request: Internal Server Error: /articles/add_comment/4/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view articles.views.add_comment didn't return an HttpResponse object. It returned None instead.
+2017-09-06 23:40:00,194 [ERROR] django.request: Internal Server Error: /articles/add_comment/3/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 94, in add_comment
+    args['form'] = f
+UnboundLocalError: local variable 'f' referenced before assignment
+2017-09-06 23:40:48,626 [ERROR] django.request: Internal Server Error: /articles/add_comment/3
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/articles/add_comment/3/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2017-09-06 23:42:33,529 [ERROR] django.request: Internal Server Error: /articles/add_comment/3
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/articles/add_comment/3/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2017-09-06 23:43:52,221 [ERROR] django.request: Internal Server Error: /articles/add_comment/3
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/articles/add_comment/3/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2017-09-06 23:44:15,949 [ERROR] django.request: Internal Server Error: /articles/add_comment/3
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/articles/add_comment/3/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2017-09-06 23:44:55,597 [ERROR] django.request: Internal Server Error: /articles/add_comment/3
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/articles/add_comment/3/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2017-09-06 23:50:51,564 [ERROR] django.request: Internal Server Error: /articles/delete_comment/2/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 99, in delete_comment
+    messages.add_message(request, settings.DELETE_MESSAGE, 'YOUR COMMENT WAS DELETED')
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/conf/__init__.py", line 54, in __getattr__
+    return getattr(self._wrapped, name)
+AttributeError: 'Settings' object has no attribute 'DELETE_MESSAGE'
+2017-09-06 23:52:08,964 [ERROR] django.request: Internal Server Error: /articles/delete_comment/2/
+Traceback (most recent call last):
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/django_test/articles/views.py", line 96, in delete_comment
+    c = Comment.objects.get(id=comment_id)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/bobrovskiy/pprojects/django-mike/lib/python3.6/site-packages/django/db/models/query.py", line 385, in get
+    self.model._meta.object_name
+articles.models.DoesNotExist: Comment matching query does not exist.
